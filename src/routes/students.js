@@ -58,14 +58,3 @@ router.post("/students",(req,res)=>{
 
 
 module.exports = router;
-
-/*
-router.get("/students/:name",(req,res)=>{
-    const {name} =req.params; 
-    var result=namesOfStud.find(getid);
-    res.send(result);
-});
-
-function getid(name){
-    return namesOfStud[id];
-} */
